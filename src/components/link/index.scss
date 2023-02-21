@@ -1,0 +1,9 @@
+.link {
+  color: gray;
+  text-decoration: none;
+
+  &__active {
+    color: #000;
+    text-decoration: underline;
+  }
+}

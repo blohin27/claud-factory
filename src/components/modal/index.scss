@@ -1,0 +1,40 @@
+
+.modal {
+  &-wrap {
+
+    position: relative;
+
+
+  }
+
+  &-header {
+    display: flex;
+    justify-content: space-between;
+    min-height: 32px;
+  }
+
+  &-title {
+
+  }
+
+  &-close-icon {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+
+  }
+
+  &-content {
+    padding: 16px 0;
+  }
+
+  background-color: #afafaf;
+  color: #fefefe;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  min-width: 300px;
+  min-height: 200px;
+}
+
+
